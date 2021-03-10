@@ -1,0 +1,170 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  align-items: center;
+  background-color: #272626;
+  display: flex;
+  flex-direction: column;
+  height: 1000px;
+}
+
+/* Login */
+
+.login-container {
+  align-items: center;
+  background: #A2D9CE;
+  border-radius: 0.5rem;
+  color: #5F6A6A;
+  display: flex;
+  flex-direction: column;
+  font: 500 1rem "Ubuntu", sans-serif;
+  margin-top: 10%;
+  padding: 1rem;
+  text-align: center;
+  width: 50%;
+}
+
+.login-input-container {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+}
+
+.login-input-container > input {
+  border: none;
+  border-radius: 0.5rem;
+  font: 300 "Ubuntu", sans-serif;
+  margin: 1.5rem 0;
+  padding: 0.5rem;
+}
+
+.login-container > button {
+  border: none;
+  border-radius: 0.5rem;
+  color: #5F6A6A;
+  font: 300 "Ubuntu", sans-serif;
+  margin: 1.5rem 0;
+  padding: 0.5rem 1.5rem;
+}
+
+/* Wallet */
+
+.wallet-container {
+  color: #5F6A6A;
+  display: flex;
+  flex-direction: column;
+  padding: 2%;
+  width: 100%;
+}
+
+.wallet-container > header {
+  color: #D0D3D4;
+  display:flex;
+  flex-direction: column;
+  margin: 0 1rem;
+  padding: 1rem 0;
+  font: 400 "Ubuntu", sans-serif;
+}
+
+.wallet-total {
+  display:flex;
+  justify-content: space-between;
+  width: 15rem;
+}
+
+.wallet-container > form {
+  display: flex;
+  justify-content: space-around;
+  font: 400 0.8rem "Ubuntu", sans-serif;
+}
+
+.wallet-container > form > section {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+}
+
+.wallet-inputs {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin: 1.5rem 0.5rem;
+}
+
+.wallet-inputs > input {
+  background: #D0D3D4;
+  border: none;
+  border-radius: 0.3rem;
+  height: 1.5rem;
+  padding-left: 0.5rem;
+}
+
+
+.wallet-selects {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 0.5rem 1.5rem 0.5rem;
+  width: 100%;
+}
+
+.wallet-selects > select {
+  background: #D0D3D4;
+  border: none;
+  border-radius: 0.3rem;
+  color: #5F6A6A;
+  height: 1.5rem;
+  padding: 0 0.5rem;
+}
+
+.wallet-container > form > button {
+  align-self: center;
+  background: #D0D3D4;
+  border: none;
+  border-radius: 0.5rem;
+  color: #5F6A6A;
+  font: 400 0.8rem "Ubuntu", sans-serif;
+  height: 2rem;
+  margin: 0.5rem;
+  padding: 0.3rem 1rem;
+}
+
+/* Table */
+
+.table-container {
+  border-collapse: collapse;
+  color: #D0D3D4;
+  margin: 0.5rem;
+  padding: 0.5rem;
+  width: 100%;
+}
+
+.table-container > tbody td {
+  font: 400 0.6rem "Ubuntu", sans-serif;
+  border: 1px solid #5F6A6A;
+  border-left-style: none;
+  border-right-style: none;
+  padding: 0.3rem;
+  text-align: center;  
+}
+
+.table-container > tbody td > button {
+  background: #D0D3D4;
+  border: none;
+  border-radius: 0.5rem;
+  color: #5F6A6A;
+  font: 400 0.6rem "Ubuntu", sans-serif;
+  height: 2rem;
+  padding: 0.5rem;
+  width: 100%;
+}
+
+.table-container > thead th {
+  background: #7B7D7D;
+  color: #272626;
+  font: 400 0.8rem "Ubuntu", sans-serif;
+  padding: 0.3rem;
+}
